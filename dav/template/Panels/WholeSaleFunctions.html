@@ -2,7 +2,7 @@
 	function hideWholesaleCategory() {
 		$('.CategoryList ul li:contains("Wholesale Glass Pipes")').hide("");
 	}
-	var signInText = "<span>" + "%%GLOBAL_LoginOrLogoutText%%" + "to see prices</span>";
+	var signInText = "<span>" + "%%GLOBAL_LoginOrLogoutText%%" + " to see prices</span>";
 	function showWholesalePrices() {
 		if ($('.CategoryList ul li:contains("Wholesale Glass Pipes")').length && $('#CategoryBreadcrumb:contains("Wholesale")').length) {
 			$('.p-price').html(signInText);
