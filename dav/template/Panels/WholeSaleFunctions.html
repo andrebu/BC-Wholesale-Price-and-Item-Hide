@@ -1,0 +1,15 @@
+<script type="text/javascript">
+	function hideWholesaleCategory() {
+		$('.CategoryList ul li:contains("Wholesale Glass Pipes")').hide("");
+	}
+	var signInText = '%%GLOBAL_LoginOrLogoutText%%';
+	function showWholesalePrices() {
+		if ($('.CategoryList ul li:contains("Wholesale Glass Pipes")').length && $('#CategoryBreadcrumb:contains("Wholesale")').length) {
+			$('.p-price').html(signInText);
+		};
+	}
+	$(document).ready( function () {
+		hideWholesaleCategory();
+		showWholesalePrices();
+	});
+</script>
