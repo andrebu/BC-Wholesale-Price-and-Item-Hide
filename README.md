@@ -37,7 +37,14 @@ BigCcommerce plugin to Hide selected Wholesale Prices and Items unless user is l
 
 
 ##Resources
-- []()
+- [Restricting Wholesale Products to Wholesale Customers](https://support.bigcommerce.com/articles/Public/How-can-I-restrict-wholesale-products-to-wholesale-customers)
+- [-In Progress- Hiding Bulk Pricing from "Retail" Customer Group](http://forum.bigcommerce.com/f4/hiding-bulk-pricing-from-retail-customer-group-23011/)
+- [Hide Shipping Method From Customer Group](http://forum.bigcommerce.com/f33/hide-shipping-method-from-customer-group-12374/)
+- [-In Progress- Display 2nd level categories in Footer Menu](https://forum.bigcommerce.com/f4/display-2nd-level-categories-in-footer-menu-14126/)
+- [Hiding and Showing Based on Customer Group Part 1](http://bigcommercejournal.blogspot.com/2013/11/hiding-and-showing-based-on-customer.html)
+- [Bigcommerce Tutorial – Hide Pricing Until Customer is Signed Into a Wholesale Account](http://www.protocolthree.com/bigcommerce-tutorial-hide-pricing-until-customer-is-signed-into-a-wholesale-account/)
+- [jQuery multiple conditions within if statement](http://stackoverflow.com/questions/10722682/jquery-multiple-conditions-within-if-statement)
+
 
 
 
