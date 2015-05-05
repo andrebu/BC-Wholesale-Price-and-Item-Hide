@@ -9,9 +9,8 @@ BigCcommerce plugin to Hide selected Wholesale Prices and Items unless user is l
 3. Add all existing Retail customers to retail group
 4. Create a unique category that will only be visible to Wholesale group customers, such as "Wholesale Deals," "Trade Specials," or "Bulk/Bundle Bargains"
 5. Allow Wholesale group to see all categories, but Allow Retail group to see all for the exception of the category we created in step 3.
-6. Install the HideWholesalePrices.html Panel reference (**%%Panel.WholeSaleFunctions%%**) into **Panels/ProductDetails.html** into the "div .PriceRow.p-price" DIV of the desktop section
-7. Install the HideWholesalePrices.html Panel reference (**%%Panel.WholeSaleFunctions%%**) into **Panels/CategoryContent.html**, at the very bottom, as the last line
-8. Finally, copy file **HideWholesalePrices.html** over to dav/template/Panels in your WedDAV account.
+6. Install the HideWholesalePrices.html Panel reference (**%%Panel.WholeSaleFunctions%%**) to bottom of **Panels/Footer.html** 
+7. Finally, copy file **HideWholesalePrices.html** over to dav/template/Panels in your WedDAV account.
     1. To access your WebDAV panel, BigCommerce gives you instructions in your Admin Panel.  
     2. Click "Design" in the top right corner of your store admin panel.  
     3. Then click "WebDAV" in the "Current Theme" section and follow the instructions
