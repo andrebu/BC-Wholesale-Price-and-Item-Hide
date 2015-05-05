@@ -43,6 +43,7 @@ BigCcommerce plugin to Hide selected Wholesale Prices and Items unless user is l
 - [Hiding and Showing Based on Customer Group Part 1](http://bigcommercejournal.blogspot.com/2013/11/hiding-and-showing-based-on-customer.html)
 - [Bigcommerce Tutorial – Hide Pricing Until Customer is Signed Into a Wholesale Account](http://www.protocolthree.com/bigcommerce-tutorial-hide-pricing-until-customer-is-signed-into-a-wholesale-account/)
 - [jQuery multiple conditions within if statement](http://stackoverflow.com/questions/10722682/jquery-multiple-conditions-within-if-statement)
+- [jotform - How can I receive SSL Submissions?](http://www.jotform.com/help/63-How-can-I-receive-SSL-Submissions)
 
 
 
