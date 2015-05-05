@@ -2,6 +2,7 @@
 	var $wholesaleSpecials = $('.CategoryList ul li:contains("Wholesale Specials")');
 	var $wholesaleBreadcrumb = $('.Breadcrumb:contains("Wholesale")');
     var $headerLogoText = $('.Left.fleft .header-logo-text');
+    var $wholesaleSHLink = $('.wholesaleSHLink');
     var $navUl = $('.CategoryList ul');
 	//var signInText = "<span>" + "%%GLOBAL_LoginOrLogoutText%%" + " to see prices</span>";
     var $wholeSaleBtns = $('.wholesaleBtnContainer');
@@ -9,6 +10,7 @@
 
     var globalFirstName= "%%GLOBAL_CurrentCustomerFirstName%%";
     var wholesaleHeaderLogoText = '<a href="/wholesale/"><span>DANKSTOP.COM <br>THE <span class="green">WHOLESALE</span> SUPPLIER!</span></a>';
+    var wholesaleSHLink = '<a href="/">Back to Retail</a>';
 	var applyForWholesaleText = '<span class="upgradeToWholesaleText">You are logged in as a Retail Customer.  Please apply for a Wholesale Account to shop Wholesale.</span><a href="#Register" class="wholesaleApply btn cta">Apply for a wholesale account</a>';
 	var loggedInAsWholesale = '<span class="green">You are logged in as a Wholesale Customer!  Have fun shopping and making money with us!</span>';
 	var signInText = '<span class="createAcc green"><a href="/login.php" onclick="">Sign in</a> or <a href="/contact-us/">Contact Us</a> to see prices</span>';
@@ -32,6 +34,7 @@
 		};
 		if ($wholesaleBreadcrumb.length) {
 			$headerLogoText.html(wholesaleHeaderLogoText);
+			$wholesaleSHLink.html(wholesaleSHLink);
 		};
 	}
 
