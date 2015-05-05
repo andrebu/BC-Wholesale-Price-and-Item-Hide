@@ -1,25 +1,29 @@
 <script type="text/javascript">
+	var $wholesaleSpecials = $('.CategoryList ul li:contains("Wholesale Specials")');
+	var $wholesaleBreadcrumb = $('.Breadcrumb:contains("Wholesale")');
 	function hideWholesaleCategory() {
 		$('.CategoryList ul li:contains("Wholesale Glass Pipes")').hide("");
 	}
 	//var signInText = "<span>" + "%%GLOBAL_LoginOrLogoutText%%" + " to see prices</span>";
 	var $prodPrice = $('.p-price');
     var $wholeSaleBtns = $('.wholesaleBtnContainer');
-	var signInText = '<span class="createAcc green"><a href="/login.php" onclick="">Sign in</a> or <a href="/contact-us/">Contact Us</a> to see prices</span>'
-	var upgradeAccText = '<span class="upgradeAcc green"><a href="/contact-us/">Contact Us</a> to see wholesale prices</span>'
+	var signInText = '<span class="createAcc green"><a href="/login.php" onclick="">Sign in</a> or <a href="/contact-us/">Contact Us</a> to see prices</span>';
+	var upgradeAccText = '<span class="upgradeAcc green"><a href="/contact-us/">Contact Us</a> to see wholesale prices</span>';
+	var applyForWholesaleText = '<span class="green">You are logged in as a Retail Customer.  Please apply for a Wholesale Account to shop Wholesale.</span>' +
+							'<a href="#Register" class="wholesaleApply btn cta">Apply for a wholesale account</a>';
+	var loggedInAsWholesale = '<span class="green">You are logged in as a Wholesale Customer!  Have fun shopping and making money with us!</span>';
     var globalFirstName="%%GLOBAL_CurrentCustomerFirstName%%";
 	function wholesaleFeatures() {
-		if (!$('.CategoryList ul li:contains("Wholesale Specials")').length && $('.Breadcrumb:contains("Wholesale")').length) {
+		if (!$wholesaleSpecials.length && $wholesaleBreadcrumb.length) {
 	        if (globalFirstName!="" && globalFirstName!="Guest")
 	        {
 				$prodPrice.html(upgradeAccText);
-				$wholeSaleBtns.html('<span class="green">You are logged in as a Retail Customer.  Please apply for a Wholesale Account to shop Wholesale.!</span>' +
-									'<a href="#Register" class="wholesaleApply btn cta">Apply for a wholesale account</a>');
+				$wholeSaleBtns.html(applyForWholesaleText);
 	        } else {
 				$prodPrice.html(signInText);
 	        };
 		} else {
-			$wholeSaleBtns.html('<span class="green">You are logged in as a Wholesale Customer!  Have fun shopping and making money with us!</span>');
+			$wholeSaleBtns.html(loggedInAsWholesale);
 		};
 	}
 	wholesaleFeatures();
