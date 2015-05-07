@@ -30,7 +30,7 @@ BigCcommerce plugin to Hide selected Wholesale Prices and Items unless user is l
 
 ##To Do
 
-1. 
+1. Finish HTML
 
 ------------------------------------------------------------------------------------
 
