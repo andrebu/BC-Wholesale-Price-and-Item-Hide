@@ -72,6 +72,7 @@ BigCcommerce plugin to Hide selected Wholesale Prices and Items unless user is l
 * [BigCommerce ThumbScroll](https://github.com/iamandrebulatov/BC-ThumbScroll)
 * [BigCommerce Product Accessory Options Choice Upsell](https://github.com/iamandrebulatov/BC-Product-Accessory-Options-Choice-Upsell)
 * [BigCommerce Navigation Dynamic List Item Visual Cues](https://github.com/iamandrebulatov/BC-Nav-Dynamic-List-Item-Visual-Cues)
+* [BigCommerce Wholesale Features and Functions](https://github.com/iamandrebulatov/BC-Wholesale-Price-and-Item-Hide)
 
 
 ------------------------------------------------------------------------------------
